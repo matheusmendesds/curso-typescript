@@ -1,0 +1,12 @@
+"use strict";
+let valor1;
+let valor2;
+let valor3;
+valor1 = 10;
+valor2 = valor1.toString();
+console.log(typeof (valor2));
+console.log(valor2);
+valor2 = "20";
+valor1 = Number.parseInt(valor2);
+console.log(typeof (valor1));
+console.log(valor1);
